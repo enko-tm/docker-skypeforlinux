@@ -1,6 +1,6 @@
-<!-- [![Docker Repository on Quay.io](https://quay.io/repository/sameersbn/skypeforlinux/status "Docker Repository on Quay.io")](https://quay.io/repository/sameersbn/skypeforlinux) -->
 
-Fork from sameersbn/skypeforlinux:0.0.3 . Here is  used the  latest stable skypeforlinux 
+Fork from sameersbn/skypeforlinux:0.0.3 . 
+Here is  used the  latest stable skypeforlinux 
 (for now  it is  skypeforlinux 5.0.1 beta)
 
 # WARNING: Work in Progress, may not work as advertised. Contributions welcome.
@@ -31,8 +31,9 @@ If you find this image useful here's how you can help:
 
 - Send a pull request with your awesome features and bug fixes
 - Help users resolve their [issues](../../issues?q=is%3Aopen+is%3Aissue).
-- Support the development of the original image (sameersbn/docker-skypeforlinux
-) with a [donation](http://www.damagehead.com/donate/)
+- Support the development of the original image 
+- (sameersbn/docker-skypeforlinux) with a [donation]
+- (http://www.damagehead.com/donate/)
 
 ## Issues
 
@@ -49,11 +50,8 @@ If the above recommendations do not help then [report your issue](../../issues/n
 # Getting started
 
 ## Installation
-<!-- regular html comment -->
-<!--- special completely ignored comment --> 
-<!-- Automated builds of the image are available on [Dockerhub](https://hub.docker.com/r/sameersbn/skypeforlinux) and is the recommended method of installation. -->
 
-<!-- **Note**: Builds are also available on [Quay.io](https://quay.io/repository/sameersbn/skypeforlinux) -->
+Automated builds of the image are available on [Dockerhub](https://hub.docker.com/r/enko/skypeforlinux) and is the recommended method of installation. -->
 
 ```bash
 docker pull enko/skypeforlinux:latest
