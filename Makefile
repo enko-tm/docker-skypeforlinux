@@ -1,4 +1,4 @@
-all: build.
+all: build
 
 XSOCK=/tmp/.X11-unix
 XAUTH=/tmp/.docker.xauth
