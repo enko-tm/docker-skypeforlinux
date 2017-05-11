@@ -1,7 +1,7 @@
 FROM sameersbn/ubuntu:14.04.20170123
 
 ENV SKYPE_USER=skype
-
+#using skypeforlinux 5.1.0.1 beta
 RUN apt-get update \
  && DEBIAN_FRONTEND=noninteractive apt-get install -y pulseaudio \
  && wget https://repo.skype.com/latest/skypeforlinux-64.deb \
