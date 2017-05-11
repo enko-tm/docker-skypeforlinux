@@ -49,18 +49,18 @@ If the above recommendations do not help then [report your issue](../../issues/n
 ## Installation
 <!-- regular html comment -->
 <!--- special completely ignored comment --> 
-Automated builds of the image are available on [Dockerhub](https://hub.docker.com/r/sameersbn/skypeforlinux) and is the recommended method of installation.
+<!-- Automated builds of the image are available on [Dockerhub](https://hub.docker.com/r/sameersbn/skypeforlinux) and is the recommended method of installation. -->
 
-> **Note**: Builds are also available on [Quay.io](https://quay.io/repository/sameersbn/skypeforlinux)
+<!-- **Note**: Builds are also available on [Quay.io](https://quay.io/repository/sameersbn/skypeforlinux) -->
 
 ```bash
-docker pull sameersbn/skypeforlinux:0.0.3
+docker pull enko/skypeforlinux:latest
 ```
 
 Alternatively you can build the image yourself. 
 
 ```bash
-docker build -t sameersbn/skypeforlinux github.com/sameersbn/docker-skypeforlinux
+docker build -t enko/skypeforlinux github.com/enko-tm/docker-skypeforlinux
 ```
 
 With the image locally available, install the wrapper scripts using:
@@ -68,7 +68,7 @@ With the image locally available, install the wrapper scripts using:
 ```bash
 docker run -it --rm \
   --volume /usr/local/bin:/target \
-  sameersbn/skypeforlinux:0.0.3 install
+  enko/skypeforlinux:latest install
 ```
 
 This will install a wrapper script to launch `skypeforlinux`.
@@ -90,7 +90,7 @@ This makes sure that your profile details are stored on the host and files recei
 
 ## Limitations
 
-- Minimize to system tray does not work.
+- Minimize to system tray does not work.  : @UPDATE   in  elementary OS Loki Minimize to system tray DOES work.
 
 # Maintenance
 
@@ -101,7 +101,7 @@ To upgrade to newer releases:
   1. Download the updated Docker image:
 
   ```bash
-  docker pull sameersbn/skypeforlinux:0.0.3
+  docker pull enko/skypeforlinux:latest
   ```
 
   2. Run `install` to make sure the host scripts are updated.
@@ -109,7 +109,7 @@ To upgrade to newer releases:
   ```bash
   docker run -it --rm \
     --volume /usr/local/bin:/target \
-    sameersbn/skypeforlinux:0.0.3 install
+    enko/skypeforlinux:latest install
   ```
 
 ## Uninstallation
@@ -117,7 +117,7 @@ To upgrade to newer releases:
 ```bash
 docker run -it --rm \
   --volume /usr/local/bin:/target \
-  sameersbn/skypeforlinux:0.0.3 uninstall
+  enko/skypeforlinux:latest uninstall
 ```
 
 ## Shell Access
