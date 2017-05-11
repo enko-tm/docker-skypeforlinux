@@ -1,4 +1,5 @@
-FROM enko/ubuntu-lts:latest
+FROM sameersbn/ubuntu:14.04.20170123
+#FROM enko/ubuntu-lts:latest
 
 ENV SKYPE_USER=skype
 #using skypeforlinux 5.1.0.1 beta
