@@ -1,8 +1,9 @@
 [![Docker Repository on Quay.io](https://quay.io/repository/sameersbn/skypeforlinux/status "Docker Repository on Quay.io")](https://quay.io/repository/sameersbn/skypeforlinux)
 
+Fork from sameersbn/skypeforlinux:0.0.3 .
 # WARNING: Work in Progress, may not work as advertised. Contributions welcome.
 
-# sameersbn/skypeforlinux:0.0.3
+# enko/skypeforlinux:latest
 
 - [Introduction](#introduction)
   - [Contributing](#contributing)
@@ -18,7 +19,7 @@
 
 # Introduction
 
-`Dockerfile` to create a [Docker](https://www.docker.com/) container image with [Skype](http://www.skype.com) for Linux (alpha) with support for audio/video calls.
+`Dockerfile` to create a [Docker](https://www.docker.com/) container image with [Skype](http://www.skype.com) for Linux (beta) with support for audio/video calls.
 
 The image uses [X11](http://www.x.org) and [Pulseaudio](http://www.freedesktop.org/wiki/Software/PulseAudio/) unix domain sockets on the host to enable audio/video support in Skype. These components are available out of the box on pretty much any modern linux distribution.
 
