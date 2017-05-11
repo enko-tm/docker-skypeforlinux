@@ -1,4 +1,4 @@
-[![Docker Repository on Quay.io](https://quay.io/repository/sameersbn/skypeforlinux/status "Docker Repository on Quay.io")](https://quay.io/repository/sameersbn/skypeforlinux)
+<!-- [![Docker Repository on Quay.io](https://quay.io/repository/sameersbn/skypeforlinux/status "Docker Repository on Quay.io")](https://quay.io/repository/sameersbn/skypeforlinux) -->
 
 Fork from sameersbn/skypeforlinux:0.0.3 .
 # WARNING: Work in Progress, may not work as advertised. Contributions welcome.
