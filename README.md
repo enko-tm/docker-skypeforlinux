@@ -1,6 +1,6 @@
 <!-- [![Docker Repository on Quay.io](https://quay.io/repository/sameersbn/skypeforlinux/status "Docker Repository on Quay.io")](https://quay.io/repository/sameersbn/skypeforlinux) -->
 
-Fork from sameersbn/skypeforlinux:0.0.3 . Here is  used the  latest stable fkypeforlinux 
+Fork from sameersbn/skypeforlinux:0.0.3 . Here is  used the  latest stable skypeforlinux 
 (for now  it is  skypeforlinux 5.0.1 beta)
 
 # WARNING: Work in Progress, may not work as advertised. Contributions welcome.
