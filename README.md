@@ -47,7 +47,8 @@ If the above recommendations do not help then [report your issue](../../issues/n
 # Getting started
 
 ## Installation
-
+<!-- regular html comment -->
+<!--- special completely ignored comment --> 
 Automated builds of the image are available on [Dockerhub](https://hub.docker.com/r/sameersbn/skypeforlinux) and is the recommended method of installation.
 
 > **Note**: Builds are also available on [Quay.io](https://quay.io/repository/sameersbn/skypeforlinux)
