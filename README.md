@@ -91,6 +91,8 @@ This makes sure that your profile details are stored on the host and files recei
 ## Limitations
 
 - Minimize to system tray does not work.
+- can not  receive incoming call 
+- ocasionaly disconnect in the midle of  the  call
 
 # Maintenance
 
