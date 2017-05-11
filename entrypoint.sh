@@ -66,6 +66,6 @@ case "$1" in
     launch_skypeforlinux $@
     ;;
   *)
-    exec $@ .
+    exec $@
     ;;
 esac
