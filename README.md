@@ -1,9 +1,9 @@
 
 Fork from sameersbn/skypeforlinux:0.0.3 . 
 Here is  used the  latest stable skypeforlinux 
-(for now  it is  skypeforlinux 5.0.1 beta)
+(for now  it is  skypeforlinux 5.1.0.1 beta)
 
-# WARNING: Work in Progress, may not work as advertised. Contributions welcome.
+# WARNING: Work in Progress, may not work as advertised.Contributions welcome.
 
 # enko/skypeforlinux:latest
 
@@ -30,7 +30,7 @@ The image uses [X11](http://www.x.org) and [Pulseaudio](http://www.freedesktop.o
 If you find this image useful here's how you can help:
 
 - Send a pull request with your awesome features and bug fixes
-- Help users resolve their [issues](../../issues?q=is%3Aopen+is%3Aissue).
+- Help users resolve their [issues](https://github.com/enko-tm/docker-skypeforlinux/issues?q=is%3Aopen+is%3Aissue).
 - Support the development of the original image 
 - (sameersbn/docker-skypeforlinux) with a [donation]
 - (http://www.damagehead.com/donate/)
@@ -41,7 +41,7 @@ Before reporting your issue please try updating Docker to the latest version and
 
 SELinux users should try disabling SELinux using the command `setenforce 0` to see if it resolves the issue.
 
-If the above recommendations do not help then [report your issue](../../issues/new) along with the following information:
+If the above recommendations do not help then [report your issue](https://github.com/enko-tm/docker-skypeforlinux/issues/new) along with the following information:
 
 - Output of the `docker version` and `docker info` commands
 - The `docker run` command or `docker-compose.yml` used to start the image. Mask out the sensitive bits.
@@ -90,7 +90,7 @@ This makes sure that your profile details are stored on the host and files recei
 
 ## Limitations
 
-- Minimize to system tray does not work.  : @UPDATE   in  elementary OS Loki Minimize to system tray DOES work.
+- Minimize to system tray does not work.
 
 # Maintenance
 
